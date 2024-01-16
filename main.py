@@ -1,3 +1,6 @@
+import sys
+import os
+
 import bibtexparser
 import datetime
 
@@ -100,14 +103,19 @@ def bibtex_to_7714(bib_path) -> list[str]:
             output.append(bib_entries.get_gbt7714())
     return output
 
+
 def main():
-    bib_path = "./ref.bib"
+    if len(sys.argv) > 1:
+        bib_path = sys.argv[1]
+    else:
+        bib_path = "./ref.bib"
     result = bibtex_to_7714(bib_path)
-    print("\n".join(result))
     # save to file
-    with open('./ref_bgt7714.txt', 'w') as f:
+    with open(f'{os.path.splitext(os.path.basename(bib_path))[0]}_bgt7714.txt', 'w') as f:
         for index, item in enumerate(result):
-            f.write(f'[{index+1}] {item}\n')
+            f.write(f'[{index + 1}] {item}\n')
+
+
 
 if __name__ == '__main__':
     main()

@@ -129,6 +129,7 @@ issues).
 ## Contributing
 
 - 54dbd
+- Freddie_1946
 
 <!-- LICENSE -->
 

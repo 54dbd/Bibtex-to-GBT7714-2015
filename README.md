@@ -46,14 +46,18 @@
 
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-This project aims to convert a bibtex file into GBT7714 format, which is a standard citation format used in Chinese academic publications. By converting the bibtex file into GBT7714 format, it allows for easier integration of references into Chinese academic papers.
+This project aims to convert a bibtex file into GBT7714 format, which is a standard citation format used in Chinese
+academic publications. By converting the bibtex file into GBT7714 format, it allows for easier integration of references
+into Chinese academic papers.
 
 
 
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This project runs on python 3.9+, lower version is not tested.
@@ -62,34 +66,48 @@ This project runs on python 3.9+, lower version is not tested.
 
 * python 3.9+
 * poetry
-  
+
 ### Installation
 
 1. Clone the repo
-   ```sh
+
+  ```sh
     git clone https://github.com/54dbd/Bibtex-to-gbt7714-converter.git
-   ```
+  ```
+
 2. Install poetry packages
-   ```sh
+
+  ```sh
    poetry install
-   ```  
+  ```  
+
+or
+
+  ```sh
+   pip install -r requirements.txt
+  ```  
+
 3. Run the converter script with the bibtex file as input:
-   ```sh
+
+  ```sh
    python main.py ./ref.bib
-   ```
-   Replace ref.bib with the name of your bibtex file.
+  ```
+
+Replace ref.bib with the name of your bibtex file.
 
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 For example, if you have a bibtex file ref.bib, you can run the following command to convert it to GBT7714 format:
+
   ```sh
   python convert.py ref.bib
   ```
 
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Support arxiv format input
@@ -97,34 +115,48 @@ For example, if you have a bibtex file ref.bib, you can run the following comman
 - [ ] Support all the existing format
 - [ ] Deal every kind of media in different way specifically
 - [ ] Multi-language input support
-    - [x] English  
-    - [ ] Chinese(no tested, considering this project is used for converting international references into chinese academic reference format)
+  - [x] English
+  - [ ] Chinese(no tested, considering this project is used for converting international references into chinese
+    academic reference format)
 
-See the [open issues](https://github.com/54dbd/Bibtex-to-gbt7714/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/54dbd/Bibtex-to-gbt7714/issues) for a full list of proposed features (and known
+issues).
 
 
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 - 54dbd
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/54dbd/Bibtex-to-gbt7714.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/54dbd/Bibtex-to-gbt7714/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/54dbd/Bibtex-to-gbt7714.svg?style=for-the-badge
+
 [forks-url]: https://github.com/54dbd/Bibtex-to-gbt7714/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/54dbd/Bibtex-to-gbt7714.svg?style=for-the-badge
+
 [stars-url]: https://github.com/54dbd/Bibtex-to-gbt7714/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/54dbd/Bibtex-to-gbt7714.svg?style=for-the-badge
+
 [issues-url]: https://github.com/54dbd/Bibtex-to-gbt7714/issues
+
 [license-shield]: https://img.shields.io/github/license/54dbd/Bibtex-to-gbt7714.svg?style=for-the-badge
+
 [license-url]: https://github.com/54dbd/Bibtex-to-gbt7714/blob/master/LICENSE.txt
+
 [patreon-shield]: https://img.shields.io/badge/-patreon-black.svg?style=for-the-badge&logo=patreon&colorB=555
+
 [patreon-url]: https://patreon.com/ross376

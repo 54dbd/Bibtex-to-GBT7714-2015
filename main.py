@@ -78,7 +78,7 @@ class BibParser:
         """
         outputString = ''
         if len(self.authors) > 3:
-            outputString += ','.join(self.authors[0:3]) + 'et al. '
+            outputString += ','.join(self.authors[0:3]) + ',et al. '
         else:
             outputString += self.authors[0] + '. '
         outputString += self.title

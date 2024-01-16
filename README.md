@@ -36,7 +36,7 @@
   <p align="center">
     This project convert bibtex file into GBT7714 format
     <br />
-    <a href="[GB/T 7714-2015](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=7FA63E9BBA56E60471AEDAEBDE44B14C)"><strong>Explore the GB/T 7714-2015 »</strong></a>
+    <a href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=7FA63E9BBA56E60471AEDAEBDE44B14C"><strong>Explore the GB/T 7714-2015 »</strong></a>
     <br />
     <a href="https://github.com/54dbd/Bibtex-to-gbt7714/issues">Report Bug</a>
   </p>

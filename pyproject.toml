@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bibtex-to-gbt7714"
+version = "0.1.0"
+description = ""
+authors = ["54dbd <845559360@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bibtexparser = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

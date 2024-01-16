@@ -1,0 +1,49 @@
+[1] Liyuan Wang , Xingxing Zhang , Hang Su et al. A Comprehensive Survey of Continual Learning: Theory, Method and Application [EB/OL]. arXiv:cs.LG, 2023,2302.004871[2024-01-16]. https://arxiv.org/abs/2302.00487. 
+[2] Xiuwei Chen . Dynamic Residual Classifier for Class Incremental Learning [EB/OL]. arXiv:cs.CV, 2023,2308.133051[2024-01-16]. https://arxiv.org/abs/2308.13305. 
+[3] Jiahua Dong , Wenqi Liang , Yang Cong et al. Heterogeneous Forgetting Compensation for Class-Incremental Learning [EB/OL]. arXiv:cs.CV, 2023,2308.033741[2024-01-16]. https://arxiv.org/abs/2308.03374. 
+[4] Zhizhong Li . Learning without Forgetting [EB/OL]. arXiv:cs.CV, 2017,1606.092821[2024-01-16]. https://arxiv.org/abs/1606.09282. 
+[5] Gou, Jianping , Yu, Baosheng , Maybank, Stephen J. et al. Knowledge Distillation: A Survey [J]. International Journal of Computer Vision, 2021,129(6):1789–1819[2024-01-16]. http://dx.doi.org/10.1007/s11263-021-01453-z. 10.1007/s11263-021-01453-z. 
+[6] Hanul Shin , Jung Kwon Lee , Jaehong Kim et al. Continual Learning with Deep Generative Replay [EB/OL]. arXiv:cs.AI, 2017,1705.086901[2024-01-16]. https://arxiv.org/abs/1705.08690. 
+[7] Ali Ayub . EEC: Learning to Encode and Regenerate Images for Continual Learning [EB/OL]. arXiv:cs.CV, 2021,2101.049041[2024-01-16]. https://arxiv.org/abs/2101.04904. 
+[8] Oleksiy Ostapenko , Mihai Puscas , Tassilo Klein et al. Learning to Remember: A Synaptic Plasticity Driven Framework for Continual Learning [EB/OL]. arXiv:cs.NE, 2019,1904.031371[2024-01-16]. https://arxiv.org/abs/1904.03137. 
+[9] Ronald Kemker . FearNet: Brain-Inspired Model for Incremental Learning [EB/OL]. arXiv:cs.LG, 2018,1711.105631[2024-01-16]. https://arxiv.org/abs/1711.10563. 
+[10] Riemer, Matthew , Klinger, Tim , Bouneffouf, Djallel et al. Scalable Recollections for Continual Lifelong Learning [J]. Proceedings of the AAAI Conference on Artificial Intelligence, 2019,33(01):1352-1359[2024-01-16]. https://ojs.aaai.org/index.php/AAAI/article/view/3935. 10.1609/aaai.v33i01.33011352. 
+[11] Mohammad Rostami . Complementary Learning for Overcoming Catastrophic Forgetting Using Experience Replay [EB/OL]. arXiv:cs.LG, 2019,1903.045661[2024-01-16]. https://arxiv.org/abs/1903.04566. 
+[12] David Lopez-Paz . Gradient Episodic Memory for Continual Learning [EB/OL]. arXiv:cs.LG, 2022,1706.088401[2024-01-16]. https://arxiv.org/abs/1706.08840. 
+[13] Arslan Chaudhry , Marc'Aurelio Ranzato , Marcus Rohrbach et al. Efficient Lifelong Learning with A-GEM [EB/OL]. arXiv:cs.LG, 2019,1812.004201[2024-01-16]. https://arxiv.org/abs/1812.00420. 
+[14] Zeng, Guanxiong , Chen, Yang , Cui, Bo et al. Continual learning of context-dependent processing in neural networks [J]. Nature Machine Intelligence, 2019,1(8):364–372[2024-01-16]. http://dx.doi.org/10.1038/s42256-019-0080-x. 10.1038/s42256-019-0080-x. 
+[15] Yiduo Guo , Wenpeng Hu , Dongyan Zhao et al. Adaptive Orthogonal Projection for Batch and Online Continual Learning [C]. 2022,[2024-01-16]. https://api.semanticscholar.org/CorpusID:250290748. 
+[16] Mirzadeh, Seyed Iman , Farajtabar, Mehrdad , Pascanu, Razvan et al. Understanding the Role of Training Regimes in Continual Learning [C]. 2020,337308--7320[2024-01-16]. https://proceedings.neurips.cc/paper_files/paper/2020/file/518a38cc9a0173d0b2dc088166981cf8-Paper.pdf. 
+[17] Seyed Iman Mirzadeh , Mehrdad Farajtabar , Dilan Gorur et al. Linear Mode Connectivity in Multitask and Continual Learning [EB/OL]. arXiv:cs.LG, 2020,2010.044951[2024-01-16]. https://arxiv.org/abs/2010.04495. 
+[18] Liu, Haomiao , Wang, Ruiping , Shan, Shiguang et al. Deep supervised hashing for fast image retrieval [C]. 2016,2064--2072[2024-01-16]. 
+[19] Zhu, Han , Long, Mingsheng , Wang, Jianmin et al. Deep hashing network for efficient similarity retrieval [C]. 2016,2415–2421[2024-01-16]. 
+[20] Cao, Zhangjie , Long, Mingsheng , Wang, Jianmin et al. Hashnet: Deep learning to hash by continuation [C]. 2017,5608--5617[2024-01-16]. 
+[21] Cao, Yue , Long, Mingsheng , Liu, Bin et al. Deep cauchy hashing for hamming space retrieval [C]. 2018,1229--1237[2024-01-16]. 
+[22] Fan, Lixin , Ng, Kam Woh , Ju, Ce et al. Deep polarized network for supervised learning of accurate binary hashing codes [C]. 2020,825--831[2024-01-16]. 
+[23] Yuan, Li , Wang, Tao , Zhang, Xiaopeng et al. Central similarity quantization for efficient image and video retrieval [C]. 2020,3083--3092[2024-01-16]. 
+[24] Chen, Yongbiao , Zhang, Sheng , Liu, Fangxin et al. Transhash: Transformer-based hamming hashing for efficient image retrieval [C]. 2022,127--136[2024-01-16]. 
+[25] Su, Shupeng , Zhang, Chao , Han, Kai et al. Greedy hash: Towards fast optimization for accurate hash coding in cnn [C]. 2018,806--815[2024-01-16]. 
+[26] Luo, Wenjie , Li, Yujia , Urtasun, Raquel et al. Understanding the effective receptive field in deep convolutional neural networks [C]. 2016,4905--4913[2024-01-16]. 
+[27] Zhou, B , Khosla, A , Lapedriza, À et al. Object detectors emerge in deep scene cnns [C]. 2015,7--9[2024-01-16]. 
+[28] Luo, Xiao , Wang, Haixin , Wu, Daqing et al. A survey on deep hashing methods [J]. ACM Transactions on Knowledge Discovery from Data, 2023,17(1):1--50[2024-01-16]. 
+[29] Peng, Zhiliang , Huang, Wei , Gu, Shanzhi et al. Conformer: Local features coupling global representations for visual recognition [C]. 2021,367--376[2024-01-16]. 
+[30] Russakovsky, Olga , Deng, Jia , Su, Hao et al. Imagenet large scale visual recognition challenge [J]. International journal of computer vision, 2015,115211--252[2024-01-16]. 
+[31] Krizhevsky, Alex. Learning multiple layers of features from tiny images [J]. Master's thesis, University of Tront, 2009,[2024-01-16]. 
+[32] Baeza-Yates, Ricardo . Modern information retrieval [M]. 1999,463[2024-01-16]. 
+[33] Vaswani, Ashish , Shazeer, Noam , Parmar, Niki et al. Attention is all you need [C]. 2017,6000–6010[2024-01-16]. 
+[34] Dosovitskiy, Alexey , Beyer, Lucas , Kolesnikov, Alexet al. An image is worth 16x16 words: Transformers for image recognition at scale [J]. CoRR, 2020,abs/2010.11929[2024-01-16]. 
+[35] LeCun, Yann , Bottou, L{\'e}on , Bengio, Yoshua et al. Gradient-based learning applied to document recognition [J]. Proceedings of the IEEE, 1998,86(11):2278--2324[2024-01-16]. 
+[36] Krizhevsky, Alex . Imagenet classification with deep convolutional neural networks [J]. Communications of the ACM, 2017,60(6):84--90[2024-01-16]. 
+[37] Karen Simonyan . Very deep convolutional networks for large-scale image recognition [J]. CoRR, 2014,abs/1409.1556[2024-01-16]. 
+[38] He, Kaiming , Zhang, Xiangyu , Ren, Shaoqing et al. Deep residual learning for image recognition [C]. 2016,770--778[2024-01-16]. 
+[39] Minaee, Shervin , Boykov, Yuri , Porikli, Fatih et al. Image segmentation using deep learning: A survey [J]. IEEE transactions on pattern analysis and machine intelligence, 2021,44(7):3523--3542[2024-01-16]. 
+[40] Zhang, Kai , Zuo, Wangmeng , Gu, Shuhang et al. Learning deep CNN denoiser prior for image restoration [C]. 2017,3929--3938[2024-01-16]. 
+[41] Guo, Guodong . A survey on deep learning based face recognition [J]. Computer vision and image understanding, 2019,189102805[2024-01-16]. 
+[42] Liu, Ze , Lin, Yutong , Cao, Yue et al. Swin transformer: Hierarchical vision transformer using shifted windows [C]. 2021,10012--10022[2024-01-16]. 
+[43] Bunk, Tanja , Varshneya, Daksh , Vlasov, Vladimir et al. Diet: Lightweight language understanding for dialogue systems [J]. arXiv e-prints, 2020,arXiv--2004[2024-01-16]. 
+[44] Zhu, Xizhou , Su, Weijie , Lu, Lewei et al. Deformable detr: Deformable transformers for end-to-end object detection [J]. arXiv e-prints, 2020,arXiv--2010[2024-01-16]. 
+[45] Webster, Arthur F . On the design of S-boxes [C]. 1986,523--534[2024-01-16]. 
+[46] Kherfi, Mohammed Lamine . Image retrieval from the world wide web: Issues, techniques, and systems [J]. ACM Computing Surveys (Csur), 2004,36(1):35--67[2024-01-16]. 
+[47] Zhang, Kaipeng , Zhang, Zhanpeng , Li, Zhifeng et al. Joint face detection and alignment using multitask cascaded convolutional networks [J]. IEEE signal processing letters, 2016,23(10):1499--1503[2024-01-16]. 
+[48] Redmon, Joseph , Divvala, Santosh , Girshick, Ross et al. You only look once: Unified, real-time object detection [C]. 2016,779--788[2024-01-16]. 
+[49] Friedman, Jerome H . An algorithm for finding best matches in logarithmic expected time [J]. ACM Transactions on Mathematical Software (TOMS), 1977,3(3):209--226[2024-01-16]. 

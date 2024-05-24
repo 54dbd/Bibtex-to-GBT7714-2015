@@ -90,9 +90,13 @@ or
 3. Run the converter script with the bibtex file as input:
 
   ```sh
-   python main.py ./ref.bib
+    poetry run python main.py ./ref.bib
+   
   ```
-
+or
+  ```sh
+    python main.py ./ref.bib
+  ```  
 Replace ref.bib with the name of your bibtex file.
 
 

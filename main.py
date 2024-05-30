@@ -99,12 +99,24 @@ def bibtex_to_7714(bib_path) -> list[str]:
     :return: list of references in gbt7714 format
     """
     output = []
-    with open(bib_path) as bibtex_file:
-        bibtex_database = bibtexparser.load(bibtex_file)
-        for entries in bibtex_database.entries:
-            bib_entries = BibParser(entries)
-            output.append(bib_entries.get_gbt7714())
-    return output
+    encodings = ['utf-8', 'gbk', 'gb2312']
+    if not os.path.exists(bib_path):
+        raise FileNotFoundError(f"文件 '{bib_path}' 不存在。")
+    for encoding in encodings:
+        try:
+            with open(bib_path, 'r', encoding=encoding) as bibtex_file:
+                bibtex_database = bibtexparser.load(bibtex_file)
+                for entries in bibtex_database.entries:
+                    bib_entries = BibParser(entries)
+                    output.append(bib_entries.get_gbt7714())
+                print(f"使用'{encoding}'编码转换成功")
+                return output  # 成功读取后返回结果
+        except UnicodeDecodeError as e:
+            print(f"编码方式 '{encoding}' 无法解码文件，尝试下一个编码方式")
+            continue  # 如果解码失败，尝试下一个编码方式
+
+    # 如果所有编码方式都失败，抛出异常
+    raise Exception(f"无法使用任何编码方式解码文件 '{bib_path}'")
 
 
 def main():

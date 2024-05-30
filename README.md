@@ -120,7 +120,7 @@ For example, if you have a bibtex file ref.bib, you can run the following comman
 - [ ] Deal every kind of media in different way specifically
 - [ ] Multi-language input support
   - [x] English
-  - [ ] Chinese(no tested, considering this project is used for converting international references into chinese
+  - [x] Chinese(no tested, considering this project is used for converting international references into chinese
     academic reference format)
 
 See the [open issues](https://github.com/54dbd/Bibtex-to-gbt7714/issues) for a full list of proposed features (and known

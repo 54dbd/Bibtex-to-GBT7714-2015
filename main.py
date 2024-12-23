@@ -64,7 +64,8 @@ class BibParser:
 
         self.year = bib_entries['year'] + ','
         self.authors = bib_entries['author'].split('and')
-        self.authors = [author.upper() for author in self.authors]
+        self.authors = [author.strip().upper() for author in self.authors]
+        print(self.authors)
         self.title = bib_entries['title'] + ' '
         self.title = self.title[0].upper() + self.title[1:]
         self.ID = bib_entries['ID']

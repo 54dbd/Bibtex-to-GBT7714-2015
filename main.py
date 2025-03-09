@@ -4,6 +4,7 @@ import os
 import bibtexparser
 import datetime
 import string
+import re
 
 NOW = datetime.datetime.now().strftime('%Y-%m-%d')
 
@@ -63,7 +64,7 @@ class BibParser:
                 self.url = ''
 
         self.year = bib_entries['year'] + ','
-        self.authors = bib_entries['author'].split('and')
+        self.authors = self.authors = [author.strip() for author in re.split(r'\band\b', bib_entries['author'])]  # and 的全词匹配
         self.authors = [author.strip().upper() for author in self.authors]
         print(self.authors)
         self.title = bib_entries['title'] + ' '

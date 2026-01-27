@@ -48,6 +48,7 @@ class BibParser:
     """
 
     def __init__(self, bib_entries):
+        bib_entries = {k.lower(): v for k, v in bib_entries.items()}
         self.entries = bib_entries
         try:
             if 'primaryclass' in bib_entries:
@@ -62,7 +63,7 @@ class BibParser:
                 self.ENTRYTYPE = '[EB/OL]. '
 
             else:
-                self.ENTRYTYPE = '[' + BOOK_TYPE[bib_entries['ENTRYTYPE']] + ']. '
+                self.ENTRYTYPE = '[' + BOOK_TYPE[bib_entries['entrytype']] + ']. '
                 self.journal = bib_entries['journal'] + ', ' if 'journal' in bib_entries else ''
                 self.volume = bib_entries['volume'] if 'volume' in bib_entries else ''
                 self.number = '(' + bib_entries['number'] + '):' if 'number' in bib_entries else ''
@@ -77,7 +78,7 @@ class BibParser:
             # logger.info(self.authors)
             self.title = bib_entries['title'] + ' '
             self.title = self.title[0].upper() + self.title[1:]
-            self.ID = bib_entries['ID']
+            self.ID = bib_entries['id']
             self.doi = bib_entries['doi'] + '. ' if 'doi' in bib_entries else ''
             self.pages = bib_entries['pages'] if 'pages' in bib_entries else ''
         except KeyError as e:
